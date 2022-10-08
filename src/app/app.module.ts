@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AddDonorComponent } from './add-donor/add-donor.component';
 import { SearchDonorComponent } from './search-donor/search-donor.component';
+import { DeleteDonorComponent } from './delete-donor/delete-donor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AddDonorComponent,
-    SearchDonorComponent
+    SearchDonorComponent,
+    DeleteDonorComponent
   ],
   imports: [
     BrowserModule,
