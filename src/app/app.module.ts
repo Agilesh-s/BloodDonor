@@ -9,6 +9,7 @@ import { SearchDonorComponent } from './search-donor/search-donor.component';
 import { DeleteDonorComponent } from './delete-donor/delete-donor.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ViewAllDonorComponent } from './view-all-donor/view-all-donor.component';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes:Routes=[
   {
@@ -36,7 +37,8 @@ const appRoutes:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
